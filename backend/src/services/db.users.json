@@ -10,17 +10,5 @@
         "name": "Denis",
         "login": "Den",
         "password": "$2b$10$Nj146afq8B92UUuDPwA7mutTrAuJHhcjDpYMZHpBWUHxct8Q7Eq7a"
-    },
-    {
-        "id": "6a0da8c4-73f0-4955-bf17-cefba1217a60",
-        "name": "jopa",
-        "login": "konya",
-        "password": "$2b$10$Nj146afq8B92UUuDPwA7mu8shtX.vmAoYCNuG5DtpOQEstXVe/B6q"
-    },
-    {
-        "id": "5b198785-1b12-4827-87e1-bffb7285f304",
-        "name": "arm",
-        "login": "arm",
-        "password": "$2b$10$Nj146afq8B92UUuDPwA7mumG8X4NrayOwv3X1sVh/GMUTMaf4p4UO"
     }
 ]

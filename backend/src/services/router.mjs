@@ -22,11 +22,15 @@ router.on('GET', '/pets/images/', async (req, res) => {
 });
 
 router.on('POST', '/reg', async (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.setHeader('Access-Control-Allow-Origin', '*');
   const result = await usersController.addNewUser(req, res);
   res.end(JSON.stringify(result));
 });
 
 router.on('POST', '/login', async (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.setHeader('Access-Control-Allow-Origin', '*');
   const result = await usersController.loginUser(req, res);
   res.end(JSON.stringify(result));
 });

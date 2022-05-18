@@ -15,6 +15,5 @@ export const createNewUserModel = async (user) => {
 
 export const findUserByLogin = async (login) => {
   const users = await readJSONAsync(pathJSONUser);
-  console.log('login:'+login);
   return users.find((user) => user.login === login);
 };

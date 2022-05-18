@@ -1,5 +1,3 @@
-import querystring from 'querystring';
-
 export const parseJsonBody = (req) =>
   new Promise((resolve, reject) => {
     let rawJson = '';
@@ -10,7 +8,7 @@ export const parseJsonBody = (req) =>
       .on('end', () => {
         try {
           if (rawJson) {
-            const requestBody = querystring.parse(rawJson.toString());
+            const requestBody = JSON.parse(rawJson);
             resolve(requestBody);
           } else {
             resolve(null);
