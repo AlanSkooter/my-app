@@ -10,5 +10,11 @@
         "name": "Denis",
         "login": "Den",
         "password": "$2b$10$Nj146afq8B92UUuDPwA7mutTrAuJHhcjDpYMZHpBWUHxct8Q7Eq7a"
+    },
+    {
+        "id": "87f5b903-f6bc-4514-8f6c-580d2eab7d9c",
+        "name": "Alina",
+        "login": "Alan",
+        "password": "$2b$10$Nj146afq8B92UUuDPwA7mumG8X4NrayOwv3X1sVh/GMUTMaf4p4UO"
     }
 ]

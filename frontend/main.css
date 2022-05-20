@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

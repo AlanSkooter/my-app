@@ -76,7 +76,7 @@ const getTokenData = async () => {
       document.getElementById('auth').style.display = 'none';
       document.getElementById('upload').style.display = 'block';
       const userHello = document.createElement('p');
-      userHello.innerHTML = `Привет, ${user.login}`;
+      userHello.innerHTML = `Привет, ${user.login}!`;
       const header = document.getElementById('header');
       header.prepend(userHello);
     })
